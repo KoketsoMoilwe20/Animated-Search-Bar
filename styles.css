@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    padding: 1rem 1rem;
+    font-size: 30px;
+    width: 30%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid black;
+    transition: all 300ms ease-in-out;
+}
+
+input:focus {
+    border-bottom: 3px solid rgb(0, 158, 66);
+    outline: none;
+    width: 65%;
+}
+
+svg {
+    width: 10%;
+    margin-left: 5%;
+}
+
+div {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 50px;
+    width: 80%;
+}
